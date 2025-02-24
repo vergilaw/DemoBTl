@@ -32,3 +32,7 @@ python main.py
 - **AIvAI Mode**: AI vs AI (MCTS vs Alpha-Beta Pruning).  
 - Click on an empty spot to place a stone.  
 - The game ends when no more moves are possible or when both players pass consecutively.  
+### Button
+- R for reset
+- Space for pass
+- M for sizing
