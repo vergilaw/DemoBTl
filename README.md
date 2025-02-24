@@ -1,36 +1,34 @@
-# Cờ Vây 2D
+# Go Game 2D  
 
-## Giới thiệu
-Đây là một trò chơi cờ vây với đồ họa 2D nhìn từ trên xuống, được phát triển bằng Python. Trò chơi hỗ trợ:
-- Chế độ chơi với bot sử dụng thuật toán Monte Carlo Tree Search (MCTS) (sẽ làm trong thời gian tới)
-- Chế độ chơi 1v1 giữa hai người chơi.
+## Introduction  
+This is a 2D Go game with a top-down view, developed in Python. The game supports:  
+- Playing against a bot using the Monte Carlo Tree Search (MCTS) algorithm (to be implemented).  
+- 1v1 mode for two human players.  
 
-## Tính năng chính
-- **Giao diện 2D trực quan**: Hiển thị bàn cờ và quân cờ rõ ràng.
-- **Chế độ chơi**:
-  - Đánh với người chơi khác trên cùng một thiết bị.
-- **Xử lý luật chơi**: Tự động kiểm tra nước đi hợp lệ, tính điểm, bắt quân.
+## Key Features  
+- **Intuitive 2D Interface**: Clearly displays the board and stones.  
+- **Game Modes**:  
+  - Play against another human on the same device.  
+- **Rule Enforcement**: Automatically checks valid moves, captures stones, and calculates scores.  
 
-
-## Cài đặt
-### Yêu cầu hệ thống
-- Python 3.8 trở lên
-- Các thư viện cần thiết:
+## Installation  
+### System Requirements  
+- Python 3.8 or later  
+- Required libraries:  
   ```sh
   pip install pygame numpy
-  ```
+  ```  
 
-## Hướng dẫn sử dụng
-### Chạy trò chơi
-Mở terminal/cmd và chạy lệnh:
+## Usage Guide  
+### Running the Game  
+Open a terminal or command prompt and run:  
 ```sh
 python main.py
-```
+```  
 
-### Cách chơi
-- **Chế độ 1v1**: Hai người chơi thay phiên đặt quân đen và trắng.
-- Nhấn vào ô trống để đặt quân.
-- Trò chơi kết thúc khi không còn nước đi hoặc khi hai bên đều bỏ lượt liên tiếp.
-
-
-
+### How to Play  
+- **1v1 Mode**: Two players take turns placing black and white stones.  
+- **1vAI Mode**: Choose difficulty level (Easy/Medium/Hard).  
+- **AIvAI Mode**: AI vs AI (MCTS vs Alpha-Beta Pruning).  
+- Click on an empty spot to place a stone.  
+- The game ends when no more moves are possible or when both players pass consecutively.  
